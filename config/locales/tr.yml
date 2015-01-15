@@ -1,4 +1,5 @@
 tr:
+ spree:
   address_book:
     other_address: "Öteki adres"
     add_new_shipping_address: "Yeni teslim adresi ekle"
@@ -11,3 +12,4 @@ tr:
     successfully_updated: "Başarıyla güncellendi"
     unsuccessfully_updated: "Adresinizi güncellerken bir hatayla karşılaşıldı."
     save: "Kaydet"
+    address: "Adres"

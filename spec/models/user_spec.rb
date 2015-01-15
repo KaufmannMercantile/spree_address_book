@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Spree::User do
+describe Spree.user_class do
   let(:user) { FactoryGirl.create(:user) }
   let(:address) { FactoryGirl.create(:address) }
   let(:address2) { FactoryGirl.create(:address) }

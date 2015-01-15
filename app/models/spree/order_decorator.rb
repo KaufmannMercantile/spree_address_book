@@ -1,5 +1,5 @@
 Spree::Order.class_eval do
-  attr_accessible :bill_address_id, :ship_address_id
+#   attr_accessible :bill_address_id, :ship_address_id
   before_validation :clone_shipping_address, :if => "Spree::AddressBook::Config[:disable_bill_address]"
   
   def clone_shipping_address
