@@ -17,5 +17,5 @@ gem 'devise'
 # gem 'spree_auth_devise',      github: 'spree/spree_auth_devise',      branch: '2-0-stable'
 gem 'devise-encryptable'
 
-gem 'spree',                  github: 'spree/spree',                  branch: '2-3-stable'
+gem 'spree',                  github: 'spree/spree',                  branch: '2-4-stable'
 # gem 'spree_i18n', :git => 'git://github.com/spree/spree_i18n.git', branch: '2-0-stable'
