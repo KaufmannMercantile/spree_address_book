@@ -1,3 +1,3 @@
-Spree::Core::Engine.routes.prepend do
+Spree::Core::Engine.routes.append do
   resources :addresses
 end
